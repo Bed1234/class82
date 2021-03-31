@@ -7,8 +7,9 @@ color="black";
 width_line=1;
 
 canvas.addEventListener("mousedown",my_mousedown);
- 
+  
  function my_mousedown(e){
+     color=document.getElementById("color").value;
      mouseEvent="mouseDown";
  }
 
